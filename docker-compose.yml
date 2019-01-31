@@ -1,0 +1,17 @@
+###############################################################################
+#                          Generated on phpdocker.io                          #
+###############################################################################
+version: '3'
+
+services:
+
+    python-container:
+      stdin_open: true
+      tty: true
+      image: debian:jessie
+      build: python
+      container_name: python-container
+      working_dir: /application
+      volumes:
+       - .:/application
+
