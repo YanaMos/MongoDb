@@ -1,7 +1,7 @@
 # Docker MongoDB
 
 ```
-
+Install MongoDB in Docker and upload csv file in table
 mongodb:
 4 shards with 2 replicas (ports 271XX)
 3 configuration servers (ports 272XX)
